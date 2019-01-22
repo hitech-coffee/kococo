@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'coffee.hitech'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.4'
+    testCompile 'junit:junit:4.12'
+}
